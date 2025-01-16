@@ -84,6 +84,7 @@ public class Class_3_Opeator : MonoBehaviour
         Debug.Log(numberA % numberB);
         #endregion
 
+        #region 比較運算子
         Debug.Log("<color=#f93> --- 比較運算子 --- </color>");
         // 比較運算子，使用後會得到布林值(True/False)
         int numberC = 100, numberD = 1;
@@ -94,7 +95,28 @@ public class Class_3_Opeator : MonoBehaviour
         Debug.Log(numberC <= numberD);      //小於或等於
         Debug.Log(numberC == numberD);      //等於
         Debug.Log(numberC != numberD);      //不等於
+        #endregion
 
+        #region 布林值邏輯運算子
+        Debug.Log("<color=#f93> --- 布林值邏輯運算子 --- </color>");
+        //邏輯否定：將布林值變成相反的值
+        Debug.Log(!true);           //F
+        Debug.Log(!false);          //T
+        bool boolVarTrue = true, boolVarFalse = false;
+        Debug.Log(!boolVarTrue);    //F
+        Debug.Log(!boolVarFalse);   //T
+        Debug.Log("<color=#f93> --- &&、||運算子 --- </color>");
+        //並且(&&)：比較兩個布林值，只要有一個F，結果就是F
+        Debug.Log(true && true);        //T
+        Debug.Log(true && false);       //F
+        Debug.Log(false && true);       //F
+        Debug.Log(false && false);      //F
+        //或者(||)：比較兩個布林值，只要有一個T，結果就是T
+        Debug.Log(true || true);        //T
+        Debug.Log(true || false);       //T
+        Debug.Log(false || true);       //T
+        Debug.Log(false || false);      //F
+        #endregion
 
     }
 
