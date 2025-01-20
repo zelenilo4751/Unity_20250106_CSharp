@@ -1,5 +1,9 @@
 using UnityEngine;
 
+/// <summary>
+/// 作業4
+/// </summary>
+
 public class Exercise_4_Function:MonoBehaviour
 {
     private void Awake()
