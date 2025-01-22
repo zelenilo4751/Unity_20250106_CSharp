@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   season: 1
-  item: 20
+  item: 1
 --- !u!4 &743118161
 Transform:
   m_ObjectHideFlags: 0

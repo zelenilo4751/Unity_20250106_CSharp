@@ -56,6 +56,27 @@ namespace ROKU
         private void Start()
         {
             Debug.Log((int)item);
+
+            // 列舉與判斷式 Switch
+            switch (item)
+            {
+                case Item.None:
+                    Debug.Log("沒有道具");
+                    break;
+                case Item.Coin:
+                    Debug.Log("金幣");
+                    break;
+                case Item.RedWater:   
+                case Item.BlueWater:
+                    Debug.Log("藥水道具");
+                    break;
+                case Item.Chicken:
+                    Debug.Log("炸雞");
+                    break;
+                default:
+                    Debug.Log("這不是道具");
+                    break;
+            }
         }
     }
 }
