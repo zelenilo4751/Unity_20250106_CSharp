@@ -18,6 +18,6 @@ public class Exercise_6_Array:MonoBehaviour
         Debug.Log($"<color=#f6a>菇菇寶貝:{characterNames[1, 0, 2]}</color>");
         Debug.Log($"<color=#f6a>蓋倫:{characterNames[2, 1, 1]}</color>");
 
-        Debug.Log($"<color=#f6a>第二頁第一排第三個:{characterNames[1, 1, 2]}</color>");
+        Debug.Log($"<color=#f6a>第二頁第一排第三個:{characterNames[1, 0, 2]}</color>");
     }
 }

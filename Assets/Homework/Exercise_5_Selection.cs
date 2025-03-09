@@ -1,4 +1,7 @@
 using UnityEngine;
+/// <summary>
+/// 作業：判斷式
+/// </summary>
 
 public class Exercise_5_Selection:MonoBehaviour
 {
