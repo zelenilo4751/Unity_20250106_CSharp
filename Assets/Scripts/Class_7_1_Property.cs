@@ -63,12 +63,19 @@ namespace ROKU
             }
         }
 
+        // 取得屬性的簡寫 (箭頭 => Lambda)
+        // 唯讀屬性 防禦值是 30
+        public int defence { get; } = 30;
+        // 唯讀屬性 攻擊值是 50
+        public int attack => 50;
+
         private void Start()
         {
             Debug.Log($"<color=#77f>魔力：{mp}</color>");
             mp = 500;
             Debug.Log($"<color=#77f>魔力：{mp}</color>");
-
+            Debug.Log($"<color=#77f>防禦：{defence}</color>");
+            Debug.Log($"<color=#77f>攻擊：{attack}</color>");
         }
     }
 
