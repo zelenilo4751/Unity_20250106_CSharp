@@ -10,11 +10,13 @@ namespace ROKU
         private void Awake()
         {
             // 實例化 NPC 並儲存在 npcJack 變數內
-            Class_8_1_NPC npcJack = new Class_8_1_NPC();
-            Class_8_1_NPC npcKID = new Class_8_1_NPC("KID");
+            Class_8_1_NPC npcJack = new Class_8_1_NPC("傑克");
+            Class_8_1_NPC npcKID = new Class_8_1_NPC("KID", "Hello~");
 
             npcJack.LogName();
             npcKID.LogName();
+            npcJack.Talk();
+            npcKID.Talk();
         }
     }
 
